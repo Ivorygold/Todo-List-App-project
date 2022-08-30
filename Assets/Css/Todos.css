@@ -1,0 +1,82 @@
+body {
+  font-family: roboto;
+  background-image: url(image1.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  background: rgb(227, 227, 197);
+  color: gray;
+  margin: 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font: size 24px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.fa-solid {
+  float: right;
+}
+
+li {
+  background-color: #ffff;
+  height: 40px;
+  line-height: 40px;
+  color: gray;
+}
+
+li:nth-child(2n) {
+  background-color: #d6cdcd;
+}
+
+span {
+  background-color: black;
+  margin-right: 20px;
+  height: 40px;
+  text-align: center;
+  color: white;
+  width: 0;
+  display: inline-block;
+  transition: 0.2s linear;
+  opacity: 0;
+}
+
+li:hover span {
+  width: 40px;
+  opacity: 1;
+}
+
+input {
+  font-size: 18px;
+  background-color: #f7f7f7;
+  width: 100%;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
+  color: #000;
+}
+
+input:focus {
+  background-color: #ffff;
+  outline: none;
+  border: 3px solid rgb(204, 197, 197);
+}
+
+#container {
+  background: white;
+  margin: 100px auto;
+  width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
+}
+
+.completed {
+  color: gray;
+  text-decoration: line-through;
+}
